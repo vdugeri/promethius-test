@@ -1,0 +1,36 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .4)), url('../../assets/hero_image.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__header {
+  font-size: 3.5rem;
+  color: #02576c;
+  text-transform: uppercase;
+}
+
+.regions {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  color: #fff;
+}
