@@ -7,24 +7,29 @@ export default class Home extends Component {
   constructor(props) {
     super(props);
 
-    this.state = {}
+    this.state = {
+      regions: [
+        "Africa",
+        "Asia",
+        "Americas",
+        "Europe",
+        "Oceania",
+      ]
+    }
   }
 
 
   render() {
+    const regions = this.state.regions.map((region, index) => {
+      return <Button key={index} variant="outlined" color="primary" href={`/regions/${region}`} >{region}</Button >
+    })
+
     return (
       <div className="home">
         <div className="hero">
           <h2 className="hero__header">You. Me. Everyone.</h2>
           <div className="regions">
-            <Button variant="outlined" color="primary" href="/regions/africa">Africa</Button>
-            <Button variant="outlined" color="primary">Asia</Button>
-            <Button variant="outlined" color="primary">Caribbean</Button>
-            <Button variant="outlined" color="primary">Central America</Button>
-            <Button variant="outlined" color="primary">Europe</Button>
-            <Button variant="outlined" color="primary">North America</Button>
-            <Button variant="outlined" color="primary">Oceania</Button>
-            <Button variant="outlined" color="primary">South America</Button>
+            {regions}
           </div>
         </div>
       </div>
