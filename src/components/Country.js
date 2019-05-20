@@ -6,7 +6,7 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
-import './styles.css';
+import '../assets/css/styles.css';
 
 
 const Country = ({ country, classes, open, handleClose }) => {
@@ -21,7 +21,7 @@ const Country = ({ country, classes, open, handleClose }) => {
       transform: `translate(-${top}%, -${left}%)`,
     };
   }
- 
+
   const languages = country.languages.map((language, index) => {
     return (
       <li key={index}>{language.name}</li>
