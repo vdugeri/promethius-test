@@ -1,25 +1,18 @@
 import React, { Component } from 'react';
-import { fetchCountries, getCountry } from '../actions/countries'
+import { fetchCountries } from '../actions/countries'
 import { connect } from 'react-redux';
+import Table from './Table';
 
 class Countries extends Component {
-  constructor(props) {
-    super(props);
-
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  handleClick() {
-
-  }
-
   componentDidMount() {
     this.props.onFetchCountries(this.props.match.params.name)
   }
 
   render() {
     return (
-      <div>Countries</div>
+      <div>
+        <Table countries={this.props.countries} />
+      </div>
     )
   }
 }
@@ -30,8 +23,7 @@ const mapStateToProps = state => ({
 });
 
 const mapActionsToProps = {
-  onFetchCountries: fetchCountries,
-  onGetCountry: getCountry,
+  onFetchCountries: fetchCountries
 }
 
 

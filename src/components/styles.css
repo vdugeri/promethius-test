@@ -10,7 +10,7 @@
   flex-direction: column;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .4)), url('../../assets/hero_image.gif');
+  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .4)), url('../assets/images/hero_image.gif');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -26,11 +26,34 @@
 
 .regions {
   display: flex;
-  width: 50%;
+  width: 30%;
   align-items: center;
   justify-content: space-between;
 }
 
 .btn {
   color: #fff;
+}
+
+.flag {
+  width: 300px;
+  height: auto;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.details span {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+
+.back {
+  font-size: 40px;
+  color: #fff;
+  text-decoration: none;
 }

@@ -9,7 +9,6 @@ export let fetchCountries = (region) => {
     const endpoint = `${baseURL}/region/${region}`;
     const res = await axios.get(endpoint);
 
-
     dispatch({
       type: FETCH_COUNTRIES,
       payload: res.data

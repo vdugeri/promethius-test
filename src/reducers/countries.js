@@ -11,8 +11,8 @@ export let countries = (state = [], { type, payload }) => {
 
 export let country = (state = {}, { type, payload }) => {
   switch (type) {
-    case GET_COUNTRY:
-      return payload
+    case GET_COUNTRY:      
+      return payload.countries.filter(country => country.name === payload.name)[0];
     default:
       return state;
   }
