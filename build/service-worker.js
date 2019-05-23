@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/promethius-test/precache-manifest.2701bc2d1b9e7b917a49fe450c971c7c.js"
+  "/promethius-test/precache-manifest.dbf8328059c8a87ce43f90d816103430.js"
 );
 
 self.addEventListener('message', (event) => {
