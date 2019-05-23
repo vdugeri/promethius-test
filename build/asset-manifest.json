@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/promethius-test/static/css/main.259b297a.chunk.css",
+    "main.js": "/promethius-test/static/js/main.94cafe82.chunk.js",
+    "main.js.map": "/promethius-test/static/js/main.94cafe82.chunk.js.map",
+    "runtime~main.js": "/promethius-test/static/js/runtime~main.d58f9d7c.js",
+    "runtime~main.js.map": "/promethius-test/static/js/runtime~main.d58f9d7c.js.map",
+    "static/js/2.80fef4dc.chunk.js": "/promethius-test/static/js/2.80fef4dc.chunk.js",
+    "static/js/2.80fef4dc.chunk.js.map": "/promethius-test/static/js/2.80fef4dc.chunk.js.map",
+    "index.html": "/promethius-test/index.html",
+    "precache-manifest.98225db580e8aba36fdb219111ee31ee.js": "/promethius-test/precache-manifest.98225db580e8aba36fdb219111ee31ee.js",
+    "service-worker.js": "/promethius-test/service-worker.js",
+    "static/css/main.259b297a.chunk.css.map": "/promethius-test/static/css/main.259b297a.chunk.css.map",
+    "static/media/styles.css": "/promethius-test/static/media/hero_image.19dad06e.gif"
+  }
+}
